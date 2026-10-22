@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="笔顺小课堂 隐私保护声明" />
+<title>笔顺小课堂隐·私保护政策</title>
+<style>
+  :root {
+    --ink: #1f2430;
+    --muted: #5b6472;
+    --accent: #6a5ae0;
+    --accent-soft: #f2f0fd;
+    --line: #e6e8ee;
+    --bg: #fafbfc;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+    line-height: 1.85;
+    font-size: 16px;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 72px;
+  }
+  header.doc-head {
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 20px;
+    margin-bottom: 32px;
+  }
+  .app-tag {
+    display: inline-block;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 999px;
+    margin-bottom: 14px;
+  }
+  h1 {
+    font-size: 28px;
+    line-height: 1.35;
+    margin: 0 0 10px;
+    font-weight: 700;
+  }
+  .meta {
+    color: var(--muted);
+    font-size: 13.5px;
+    margin: 0;
+  }
+  .meta span + span::before { content: "·"; margin: 0 8px; color: var(--line); }
+  section { margin-bottom: 30px; }
+  h2 {
+    font-size: 18px;
+    margin: 0 0 12px;
+    font-weight: 700;
+    color: var(--ink);
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  h2 .num {
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+  }
+  p { margin: 0 0 12px; }
+  p { text-indent: 2em; } /* 首行缩进两个字符 */
+  ul { margin: 0 0 12px; padding-left: 22px; }
+  li { margin-bottom: 8px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px 22px;
+  }
+  .highlight {
+    background: var(--accent-soft);
+    border-left: 4px solid var(--accent);
+    border-radius: 0 10px 10px 0;
+    padding: 16px 20px;
+    margin: 0 0 30px;
+  }
+  .highlight p { margin: 0; font-weight: 600; }
+  strong { color: var(--ink); }
+  footer {
+    margin-top: 44px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 13px;
+  }
+  @media (max-width: 480px) {
+    .wrap { padding: 32px 16px 56px; }
+    h1 { font-size: 24px; }
+    body { font-size: 15.5px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="doc-head">
+    <h1>笔顺小课堂隐·私保护政策</h1>
+    <p class="meta">
+      <span>生效日期：2026-10-21</span>
+      <span>版本：v1.1</span>
+    </p>
+  </header>
+
+  <div class="highlight">
+    <p>一句话摘要：本应用完全在设备本地运行，不收集、不存储、不上传、不出售任何个人信息。</p>
+  </div>
+
+  <section>
+    <h2><span class="num">1</span>我们如何对待个人信息</h2>
+    <div class="card">
+      <p>笔顺小课堂是一款面向 6–9 岁儿童的汉字笔顺学习应用。我们深知儿童个人信息的重要性，并严格遵守《中华人民共和国个人信息保护法》《未成年人保护法》及《儿童个人信息网络保护规定》。</p>
+      <p>本应用<strong>不收集、不存储、不上传、不出售任何个人信息</strong>，包括但不限于：姓名、年龄、生日、性别、位置、通讯录、照片、音频、设备标识符、应用使用记录等。</p>
+      <p>应用不包含账号体系，不需要注册或登录，也不要求儿童填写任何形式的个人资料。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span>纯离线运行，无网络数据传输</h2>
+    <div class="card">
+      <p>本应用为<strong>纯离线应用</strong>：全部学习内容（笔顺动画、拼音、组词）均内置于安装包中，在设备本地完成加载与展示，<strong>不连接任何服务器</strong>，不产生任何向外的网络数据传输。</p>
+      <p>应用不申请互联网权限（Android 端权限清单为空），从技术上即不具备上传数据的能力。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span>不含广告、追踪与第三方共享</h2>
+    <div class="card">
+      <ul>
+        <li><strong>无广告</strong>：应用内不含任何形式的广告。</li>
+        <li><strong>无追踪</strong>：不集成任何第三方统计、广告或行为分析 SDK。</li>
+        <li><strong>无社交</strong>：不含社交功能、评论、聊天或用户生成内容。</li>
+        <li><strong>无外链</strong>：应用内不包含任何跳转外部网站或第三方服务的链接。</li>
+        <li><strong>无共享</strong>：不存在向任何第三方提供、共享、转让儿童个人信息的情形。</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">4</span>不申请任何设备权限</h2>
+    <div class="card">
+      <p>本应用<strong>不申请麦克风、相机、定位、通讯录、存储等任何设备权限</strong>。应用内不录音、不拍照、不定位。</p>
+      <p>如需语音输入查询汉字，由您设备上的系统输入法自行提供，与本应用无关，本应用不获取其内容。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">5</span>购买与解锁信息的本地保存</h2>
+    <div class="card">
+      <p>完整版解锁采用<strong>一次性买断</strong>（非订阅、无自动续费）。购买行为由应用商店（Apple / 华为等）处理，本应用不接触、不保存任何支付账号或银行卡信息。</p>
+      <p>解锁状态与购买凭据仅保存在<strong>您的设备本地</strong>，用于在重装后恢复购买，<strong>不会同步至开发者或任何第三方</strong>。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">6</span>家长门禁与监护人控制</h2>
+    <div class="card">
+      <p>应用内的购买入口、隐私政策与本声明等全部说明文档，均置于<strong>家长验证（家长门禁）</strong>之后，儿童无法自行进入或完成支付。</p>
+      <p>我们建议监护人在儿童使用本应用前阅读本声明，并在同意或指导下陪同使用。监护人可随时卸载应用以彻底清除设备本地的解锁记录。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">7</span>监护人权利与咨询</h2>
+    <div class="card">
+      <p>由于本应用不收集任何儿童个人信息，不存在需要查阅、更正、删除的儿童个人数据。若监护人对本声明或儿童使用本应用有任何疑问、意见或建议，可通过应用内「家长中心 → 关于与许可」查看完整隐私政策与开源许可信息，或通过应用内「家长中心 → 关于与许可 → 联系作者」所列作者邮箱 bishunxiaoketang@163.com 与我们联系。</p>
+      <p>若本声明更新，我们将在应用内及本页面同步发布新版本，并更新页首的生效日期与版本号。</p>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
